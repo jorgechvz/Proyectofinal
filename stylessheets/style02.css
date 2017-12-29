@@ -1,0 +1,102 @@
+html,body{
+  height: 100%;
+  font-family: helvetica, 'helvetica neue', arial, sans-serif;
+}
+
+.headDiv {
+  height: 3vh;
+}
+.contentDiv {
+  position: relative;
+  padding: 0px;
+  height: 88vh;
+  width: 100%;
+  background: black;      }
+#map {
+  position: absolute;
+  float: right;
+  height: 88vh;
+  width: 100%;
+  z-index: 8;
+}
+#menuDiv {
+  position: absolute;
+  float: left;
+  //- width: 30%;
+  top: 0px;
+  background: black;
+  z-index: 10;
+}
+.menuLateral{
+  font-family: helvetica, 'helvetica neue', arial, sans-serif;
+  background: #5d5c5c;
+  border-color: #5d5c5c;
+  padding: 1px;
+  border:0px;
+  margin:0px;
+}
+.menuLateral:hover{
+  background: #282828;
+  border-color: #282828;
+}
+.botonMenuLateral{
+  font-size: medium;
+  padding: 1px;
+  border: 0px;
+  margin-left: 5px;
+  margin-right: 8px;
+  background: transparent;
+  border-color: transparent;
+  color: #ffffff;
+}
+.botonMenuLateral:hover{
+  background-color: #282828;
+  border-color: #282828;
+  color: #ffffff;
+}
+.botonMenuLateral:active{
+  background-color: #282828;
+  border-color: #282828;
+  color: #ffffff;
+}
+.botonModal{
+    background: #5d5c5c;
+    border-color: #5d5c5c;
+}
+.botonModal:hover{
+    background: #282828;
+    border-color: #282828;
+}
+.checkboxMenuLateral{
+    padding: 4px;
+}
+.titleColor{
+  background: #4267b2;
+  border-color: #4267b2;
+  margin: 0px;
+  border: 0px;
+  height: 12vh;
+  text-align: center;
+  vertical-align: middle;
+}
+.fondoColor{
+  background: #ffffff;
+}
+.modalColor{
+  background-color: #ffffff;
+  color: #000000;
+}
+.letraTitulo{
+  font-size: x-large;
+  color: #ffffff;
+}
+.letraTitulo:hover{
+  color: #ffffff;
+}
+.custom-height-modal {
+  height: 90vh;
+  width: 90vh;
+}
+.letraNegra {
+  color: #000000;
+}

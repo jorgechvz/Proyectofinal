@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="rutasApp" ng-controller="myControllerCtrl">
+<head><title>Restaurants Arequipa</title>
+  <link rel="icon" href="/img/bandera.png">
+  <link rel="stylesheet" href="/bootstrap/css/amelia.bootstrap.min.css">
+  <link rel="stylesheet" href="/stylesheets/style02.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="fondoColor">
+  <div class="titleColor"><a href="#" title="contact: fabiolaherrerarivera@gmail.com" class="navbar-brand letraTitulo">Restaurants Calle Mercaderes - Arequipa</a></div>
+  <div class="contentDiv">
+    <div id="map" ng-init="cargarRestaurant()"></div>
+  </div>
+  <script src="/javascripts/jquery-3.2.1.min.js"></script>
+  <script src="/bootstrap/js/bootstrap.min.js"> </script>
+  <script src="/angular/angular.min.js"></script><script src="/lib/angular-route.min.js">
+  </script><script src="/angular/rutasApp.js"></script>
+  <script id="scriptGoogle" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJoWpw9OqgPNbbud1AY6ZbSaOvKPPnSLk"></script>
+</body>
+</html>
